@@ -93,7 +93,7 @@ void input()
 
 		    do{
 			printf("\nenter the name:");
-			scanf("%s",nam);
+			scanf("%s",nam1);
 			fseek(fp,0,SEEK_SET);
 			for(i=1;i<=n1;i++)
 			{
