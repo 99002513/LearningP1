@@ -53,7 +53,7 @@ void input()
    void search()
    {
 	 char ch;
-	 char nam1[100];
+	 char nam[100];
 	 int n1,i,m=1;
 	 FILE *fp;
 	 fp=fopen("bidur.dat","rb");
@@ -93,7 +93,7 @@ void input()
 
 		    do{
 			printf("\nenter the name:");
-			scanf("%s",nam1);
+			scanf("%s",nam);
 			fseek(fp,0,SEEK_SET);
 			for(i=1;i<=n1;i++)
 			{
