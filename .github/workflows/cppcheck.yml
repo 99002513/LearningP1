@@ -12,4 +12,4 @@ name: cppcheck-action
 	      - name: Install cppcheck
 	        run: sudo apt-get -y install cppcheck
 	      - name: Cppcheck code
-	        run: Cppcheck 
+	        run: cppcheck 
